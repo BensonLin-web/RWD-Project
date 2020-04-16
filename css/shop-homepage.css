@@ -1,0 +1,99 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+/*@media (min-width: 992px) {
+	.mydropdown,.my-form-phone{
+		display: none;
+	}
+	.mylist,.my-form-web{
+		display: block;
+	}
+}
+@media (max-width: 991px) {
+	.mylist,.my-form-web{
+		display: none;
+	}
+	.mydropdown,.my-form-phone{
+		display: block;
+	}
+}*/
+
+/*設置圖片輪播寬高*/
+.carousel-inner img {
+    width: 900px;
+    height: 350px;
+}
+
+.wrap{
+
+}
+/*網路麵包屑*/
+.breadcrumb{
+    background-color: white;
+    width: auto;
+    margin-top: 20px;
+    display: flex;
+    padding-left: 0px;
+    border-bottom: 1px solid #888888;
+}
+
+.breadcrumb li{
+    padding-right: 20px;
+}
+
+.breadcrumb a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.breadcrumb a:hover,
+.breadcrumb li:last-child a{
+    color: #ffd700;
+}
+
+.breadcrumb #first-child a{
+	color: black;
+}
+
+.breadcrumb #first-child a:hover{
+	color: #ffd700;
+}
+    
+.breadcrumb li + li{
+    padding-left: 0;
+}
+
+.breadcrumb li + li:before{
+    content: '>';
+    color: black;
+    margin-right: 20px;
+}
+
+
+/*Home、About、Services、Contact標題樣式*/
+/*.col-lg-9 h5{
+ 
+    margin-top: 32px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #888888;
+}
+.col-lg-9 div{
+    display: inline-block;
+    vertical-align: top;
+}
+.col-lg-9 .divRight{
+    margin-top: 15px;
+}
+
+.card-title a{
+    color:  black;
+    font-weight: bold;
+}*/
